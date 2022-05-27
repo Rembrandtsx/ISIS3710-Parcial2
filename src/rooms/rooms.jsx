@@ -45,10 +45,11 @@ function Rooms({ setCurrRoom, home, setDevices }) {
       */
       <div className="rooms-container">
         {rooms &&
-          rooms.map((room) => {
+          rooms.map((room, i) => {
             if (room.homeId === home.id) {
               return (
                 <div
+                  key={i}
                   onClick={() => {
                     setDevices(room.devices);
                   }}

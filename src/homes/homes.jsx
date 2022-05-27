@@ -26,9 +26,13 @@ function Homes({ setCurrHome }) {
       <h2 style={{ marginLeft: "3rem" }}>{t("homes.title")}</h2>
       <div className="home-container">
         {homes &&
-          homes.map((home) => {
+          homes.map((home, i) => {
             return (
-              <div onClick={() => setCurrHome(home)} className="home-item">
+              <div
+                key={i}
+                onClick={() => setCurrHome(home)}
+                className="home-item"
+              >
                 <div className="img">
                   <img
                     src={`https://source.unsplash.com/random/200x200/?${home.name
