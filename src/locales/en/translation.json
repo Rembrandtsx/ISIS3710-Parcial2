@@ -1,0 +1,17 @@
+{
+    "rooms": {
+        "title": "My rooms"
+    },
+    "devices": {
+        "device": "Device",
+        "value": "Value"
+    },
+    "homes": {
+        "title": "My Spaces"
+    },
+    "main": {
+        "changeLang": "Change Language",
+        "room": "Choose a Space to watch it's rooms",
+        "device": "Choose a Room to watch it's devices"
+    }
+}

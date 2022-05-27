@@ -1,0 +1,17 @@
+{
+    "rooms": {
+        "title": "Mis habitaciones"
+    },
+    "devices": {
+        "device": "Dispositivo",
+        "value": "Valor"
+    },
+    "homes": {
+        "title": "Mis espacios"
+    },
+    "main": {
+        "changeLang": "Cambiar Idioma",
+        "room": "Elige una casa para ver sus habitaciones",
+        "device": "Elige una habitacion para ver sus dispositivos"
+    }
+}

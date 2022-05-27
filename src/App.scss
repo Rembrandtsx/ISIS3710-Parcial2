@@ -1,0 +1,22 @@
+.nav{
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  padding: 1rem 3rem;
+  justify-content: space-between;
+  
+}
+
+.container{
+  width: 100vw;
+  min-height: 80vh;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  .inferior{
+    margin-top: 4rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
